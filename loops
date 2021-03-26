@@ -1,0 +1,22 @@
+import java.util.*;
+
+class Loop{
+public static void main(String args[]){
+
+int choice;
+System.out.println("Select your choice");
+System.out.println("1. Hi\t2. Hello\t3. Yo");
+Scanner sc = new Scanner(System.in);
+choice = sc.nextInt();
+switch(choice)
+{
+case 1: System.out.println("I said Hi");
+break;
+case 2:  System.out.println("I said Hello");
+break;
+case 3:  System.out.println("I said Yo");
+break;
+default: System.out.println("Invalid choice");
+}
+}
+}
