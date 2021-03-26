@@ -1,0 +1,46 @@
+import java.util.*;
+class Matrix
+{
+public static void main (String arg[])
+{
+int a[][] =new int[3][3];
+int b[][] =new int[3][3];
+int o[][] =new int [3][3];
+Scanner input=new Scanner(System.in);
+
+System.out.println("Enter the numbers of matrix 1:");
+{
+for(int i=0;i<3;i++)
+{
+for(int j=0;j<3;j++)
+{
+a[i][j]=input.nextInt();
+}
+}
+}
+
+System.out.println("Enter the numbers of matrix 2:");
+{
+for(int i=0;i<3;i++)
+{
+for(int j=0;j<3;j++)
+{
+b[i][j]=input.nextInt();
+}
+}
+}
+
+System.out.println("The output matrix is:");
+{
+for(int i=0;i<3;i++)
+{
+for(int j=0;j<3;j++)
+{
+o[i][j]=a[i][j]+b[i][j];
+System.out.println(" " +o[i][j]);
+}
+}
+System.out.println();
+}
+}
+}
