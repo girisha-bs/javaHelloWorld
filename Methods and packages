@@ -1,0 +1,15 @@
+class Year{
+public static void main(String args[]){
+
+int x=3456789;
+int yr=x/525600;
+
+
+int q= x % 525600;
+
+int dy = q/1440;
+
+System.out.println("Years: "+yr);
+System.out.println("Days: "+dy);
+}
+}
